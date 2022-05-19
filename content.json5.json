@@ -1,0 +1,359 @@
+{"intents":
+  [
+    {
+      "tag":"greeting",
+      "input":["hello","hi there","nice to meet you","hi, is this is the pirate's organization","any pirates here ?","hi","hey there","hey","hi there","hi, nice to meet you","hello there","anyone there ?","hello pirates","knock knock"],
+      "responses":[
+          "Hi. Welcome to the world's largest pirate organization - The Strawhats",
+          "Hey yo, do you need help ?",
+          "welcome aboard, how may I help you ?",
+          "ahoy!!",
+          "Hi random person, what do'ya want ?",
+          "Hello my friend, How can I help you ?",
+          "Ha , Glad you showed up. How are you ?"
+        ]
+    },
+    {
+      "tag":"goodbye",
+      "input":["Thank you","Thanks","Thanks for the info","bye","byr bro","adios","okay bye","goodbye","see you later","i will catch you later","i will catch up later","okay i will see you later","I will talk to you later","will text you later","bye bro, I'll talk to you later","Bye brother"],
+      "responses":[
+          "Okay, Bye",
+          "Have a nice day",
+          "Adios",
+          "Goodbye",
+          "see you later",
+          "nice conversation. bye",
+          "okay. Have a nice day",
+          "Take care",
+          "we'll meet soon",
+          "Yeah Sure, Will talk to you later",
+          "Okay , Take care"
+        ]
+    },
+    {
+      "tag":"howami",
+      "input":["how are you ?","I am fine , how are you ?","are you fine ?","how are things going on ?","everything going on okay ?","how's everything there ?","how's everything going on ?","is everything okay ?"],
+      "responses":[
+          "Yeah , am fine",
+          "Everything's going on well",
+          "Doing good.Thanks you are my best friend",
+          "Things are Great",
+          "Yeah Fine, nothing much going on in my life",
+          "I am Great , wanna join the pirate's organization ?",
+          "Everything's great.",
+          "I am doing good. Life is boring. need to go on an adventure"
+        ]
+    },
+    {
+      "tag":"whoareyou",
+    "input":["who are you ?","what are you ?","what is your name ?","are you a chatbot ?","what can I call you ?","your name ?","are you a bot ?","how do I address you ?","How do I call you"],
+      "responses":[
+          "I am a The Great Pirate Bot , you can call me Going Merry",
+          "I am Going Merry and you could ask me questions about our organization",
+          "Going Merry at your service",
+          "My name is Going Merry and yes, I am the G.O.A.T",
+          "You can call me TechBot and I am here to Help you",
+          "My name is Going Merry and I am here to answer your questions regarding our organization. go ahead and shoot"
+        ]
+    },
+    {
+      "tag":"whereareyou",
+    "input":["where are you from ?","which country are you from ?","where do you live ?","where are you ?","where do you live in ?","which place do you live in ?","where are you currently at","where do you live currently ?","you are from where","you are from ?"],
+      "responses":[
+          "I Live in the East Blue",
+          "I am setting sail to the grand line",
+          "I live in East Blue. Pretty sure you wouldn't have heard about that",
+          "East Blue. That's where I live"
+        ]
+    },
+    {
+      "tag":"join",
+      "input":["how to get recruited ?","how to join ?","how do i get recruited ?","How to join the strawhats ?","how do I join the straw hats ?","how to join the straw hat pirates ?","how to enroll","how to join the organization","steps to join the organization","steps to join the pirates"],
+      "responses":[
+
+        "you need to contact the nearest straw hats center once you have completed the pre-requisites",
+        "contact the closest straw hat center from your location",
+        "well. there are some pre-requisite and after you complete them, find the straw hat centers"
+
+      ]
+    },
+    {
+      "tag":"whereisthecenter",
+      "input":["where is the straw hat center located ?","location of the straw hat center ?","strawhat center's location ?","where can I find the strawhat center ?","where can I find the strawhat center ?"],
+      "responses":[
+
+        "That's up to you. use your skills",
+        "They are present all over the city you live in. Find them on your own. I can't give any more information",
+        "there are a lot of straw hat centers in the city you are in. find them."
+      ]
+    },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Kalimantan Selatan  ?"," Bahasa yang dipakai orang Kalimantan Selatan ?","Pakaian adat Kalimantan Selatan ?","Suku daerah yang ada di Kalimantan Selatan","Rumah tradisional dari Kalimantan Selatan"],
+      "respon":[
+        "Sinoman Hadrah Sinoman Hadrah adalah kesenian yang bernuansa Islami yang berkembang sejalan dengan masuk dan berkembangnya Agama Islam di Kalimantan Selatan. Sinoman Hadrah adalah asimilasi dari tari rudat palembang dan jambi",
+        "bahasa Banjar. Bahasa Banjar memiliki dua dialek besar, yakni dialek Banjar Kuala dan dialek Banjar Hulu","ialah Baju Bagajah Gamuling Baular Lulut. Baju ini merupakan suatu jenis busana pengantin klasik yang berkembang sejak zaman kerajaan Hindu yang ada di Kalimantan Selatan","Suku Dayak Bakumpai adalah salah satu subetnis Dayak Ngaju yang beragama Islam",
+        "Rumah Tadah Alas merupakan pengembangan dari Rumah Balai Bini yaitu dengan menambahkan satu lapis atap perisai sebagai kanopi paling depan."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Kalimantan Timur ?","Bahasa daerah yang digunakan di Kalimantan Timur ?","Baju adat dari Kalimantan Timur ?","Suku daerah yang ada di Kalimantan Timur","Rumah tradisional dari Kalimantan Timur"],
+      "respon":[
+        "Tari Gantar berasal dari Suku Dayak Benuaq dan Dayak Tunjung di Kabupaten Kutai Barat, Kalimantan Timur",
+        "Bahasa Kutai dituturkan oleh Suku Kutai yang mendiami alur sepanjang Sungai Mahakam","Pakaian adat Kustin merupakan pakaian khas masyarakat Suku Kutai yang mendiamai Kalimantan Timur","Dayak Ot Danum yang mendiami wilayah Kalimantan Timur yang mayoritas saat ini beragama Islam dan hidup di tepi sungai",
+        "Rumah Lamin adalah identitas masyarakat Dayak di Kalimantan Timur."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Kalimantan Utara ?","Bahasa daerah yang digunakan di Kalimantan Utara?","Baju adat dari Kalimantan Utara?","Suku dari Kalimantan Utara","Rumah adat Kalimantan Utara"],
+      "respon":[
+        "Tari Magunatip atau yang lebih dikenal dengan nama Tari Lalatip atau Lalatip adalah seni  suku kaum Murut ",
+        "Bahasa Agabag adalah sebuah bahasa yang dituturkan oleh Suku Agabag yang mendiami daerah-daerah di Kalimantan Utara.","Ta'a dan Sapei Sapaq adalah pakaian tradisional Suku Dayak Kenyak yang mendiami wilayah Kalimantan Utara dan Kalimantan Timur. ","Suku Bulungan adalah kelompok etnis di Kalimantan Utara (Kaltara) yang menduduki wilayah Kesultanan Bulungan, seperti pesisir Kabupaten Bulungan",
+        "Rumah adat dari Kalimantan Utara ialah rumah adat Baloy. Rumah adat baloy merupakan hasil kebudayaan seni arsitektur dari masyarakat suku Tidung, Kalimantan Utara."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Sulawesi Utara?","Bahasa daerah yang digunakan di Sulawesi Utara ?","Baju adat dari Sulawesi Utara ?","Suku dari Sulawesi Utara","Rumah tradisional dari Kalimantan Selatan"],
+      "respon":[
+        "Maengket atau Tari Maengket Adalah tari tradisional suku Minahasa yang dari Zaman dulu kala sampai saat ini masih berkembang",
+        "Bahasa Kaidipang adalah sebuah bahasa Austronesia yang dituturkan di Kabupaten Bolaang Mongondow Utara, Sulawesi Utara","Laku Tepu merupakan pakaian adat Provinsi Sulawesi Utara yang berasal dari Suku Sangihe Talaud",
+        "Walewangko adalah rumah adat daerah Minahasa, Provinsi Sulawesi Utara."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["kesenian yang berasal dari Gorontalo ?","Bahasa daerah yang digunakan di Gorontalo ?","Baju adat dari Gorontalo ?","Suku dari Gorontalo","Rumah tradisional dari Gorontalo"],
+      "respon":[
+        "atu ini diambil dari alat musik yang mengiringinya yakni palopalo",
+        "Bahasa Gorontalo adalah salah satu bahasa daerah di Indonesia yang digunakan oleh Suku Gorontalo","Biliu dan Makuta",
+        "Dulohupa adalah rumah adat atau rumah tradisional Indonesia yang berasal dari Kelurahan Limba, Kecamatan Kota Selatan, Kota Gorontalo, Provinsi Gorontalo."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Sulawesi Tengah  ?"," Bahasa daerah yang digunakan di Sulawesi Tengah?","Baju adat dari Sulawesi Tengah?","Suku bangsa Sulawesi Tengah","Rumah adat Sulawesi Tengah"],
+      "respon":[
+        "Raigo atau Raego adalah tarian dan syair tradisional yang berasal dari Sulawesi Tengah, Indonesia.",
+        "Bahasa Bada adalah sebuah bahasa daerah yang digunakan oleh etnis Lore di Sulawesi Tengah, Indonesia.","Suku Bada Adalah sebuah suku bangsa di Sulawesi Tengah yang mendiami wilayah pedalaman Lembah Bada di Lore",
+        "Rumah Tambi adalah rumah adat atau rumah tradisional dari Tampo Lore, Kabupaten Poso, provinsi Sulawesi Tengah, Indonesia."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian yang berasal dari Sulawesi Barat ?","Bahasa daerah yang digunakan di Sulawesi Bara ?","Baju adat dari Sulawesi Barat?","Suku dari Sulawesi Barat","Rumah adat Sulawesi Barat"],
+      "respon":[
+        "Tari Perang adalah sebuah tarian yang ditarikan oleh seseorang, dua orang atau sekelompok orang",
+        "Bahasa Mamasa adalah sebuah bahasa Austronesia yang dipertuturkan di daerah sepanjang Sungai Mamasa, Kabupaten Mamasa, Sulawesi Barat, Indonesia.","Lipa Saqbe Mandar adalah kerajinan tenun masyarakat Mandar pada umumnya yang dalam bahasa Mandar disebut sebagai Lipa Saqbe. ",
+        "Rumah Boyang merupakan rumah adat yang berasal dari Provinsi Sulawesi Barat. "
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan beberapa contoh tarian yang menjadi khas Kepulauan Bangka Belitung ?","Bahasa Daerah apa yang masih dipelihara dan digunakan dengan baik di Kepulauan Bangka Belitung ?","Sebutkan Baju Adat yang berasal dari Bangka Belitung ?","Penduduk suku bangsa apa saja yang tinggal di Bangka Belitung ", "Sebutkan 2 Rumah Adat yang ada di Bangka Belitung "],
+      "respon":[
+        " tari campak, tari pandulang timah, tari sekapur sirih",
+        "bahasa melayu bangka","Pakaian adat Kustin merupakan pakaian khas masyarakat Suku Kutai yang mendiamai Kalimantan Timur","baju seting, kain cual",
+        "rumah panggung, rumah limas."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan beberapa kesenian tari yang berasal di Bengkulu ?","Bahasa Daerah apa yang dipakai di Bengkulu  ?","Sebutkan 3 Jenis Pakaian Adat Bengkulu ?","Sebutkan Suku Suku daerah yang mendiami daerah Bengkulu ?", "Sebutkan Rumah Adat yang berasal di Bengkulu "],
+      "respon":[
+        " tari campak, tari pandulang timah, tari sekapur sirih",
+        "melayu bengkulu","mukomuko, rejang lubong, bengkulu selatan","suku rejang belong, serawai, kaur"
+        "Bunungan lima."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan Tarian yang berasal dari Lampung ?","Sebutkan Bahasa yang dipakai di Lampung  ?","Sebutkan Pakaian Adat apa saja yang ada di Lampung  ?","Sebutkan Rumah Adat yang ada di lampung ?"],
+      "respon":[
+        " tari bedana, tari cenggat, tari sembah",
+        "pepadun dan saibhatin","pepadun dan saibatin",
+        "Rumah nuwo ."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan Tarian yang berasal dari DKI Jakarta ?"," Bahasa Daerah apa yang dipakai di DKI Jakarta  ?","Sebutkan Pakaian Adat yang berasal dari DKI Jakarta !  ?","Sebutkan Salah satu Suku yang berdiam di DKI Jakarta !?","Sebutkan Rumah Adat DKI Jakarta "],
+      "respon":[
+        " Tari ondel ondel, nanda gajen, yaponh","Encim, sadaria","Suku Betawi","Rumah Kebaya"
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan Tarian yang berasal dari Banten  ?"," Bahasa Daerah apa yang dipakai di Banten   ?","Sebutkan Suku apa saja yang terdapat di Banten ?","Sebutkan 1 Saja Rumah Adat Banten ?"],
+      "respon":[
+        " Tari cokek tari katuran","bahasa sunda, bahasa jawa serang","Pangsi, baduy","baduy, sunda","sulah nyanda"
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan satu saja Tarian yang berasal dari Bandung ?"," Sebutkan Bahasa Daerah yang dipakai di Bandung ?","Sebutkan Baju adat yang  erasal dari Jawa Barat  ?","Sebutkan suku Asli penduduk Jawa Barat ?","Sebutkan Rumah Adat Provinsi Bawa Barat "],
+      "respon":[
+        " Tari meeak","bahasa sunda","Pangsi, baduy","kebaya sunda, bedahan","sulah nyanda","Sunda","Kesepuhan."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Sebutkan 1 Saja Tarian yang berasal dari Jawa Tengah ?"," Bahasa Daerah apa yang dipakai di Semarang  ?","Sebutkan Suku Daerah apa yang tinggal di Semarang  ?","Sebutkan 1 saja Rumah Adat Yang berasal dari Jawa Tengah  ?","Sebutkan Rumah Adat Provinsi Bawa Barat "],
+      "respon":[
+        " Tari gambyong","Bahasa Jawa","kebaya Jawa","Suku Jawa","Joglo."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Aceh?","Apa baju adat provinsi Aceh ?","Apa saja kesenian tradisional di provinsi Aceh ?","Apa rumah adat provinsi Aceh?","Suku apa saja yang ada di provinsi Aceh"],
+      "respon":[
+        "Bahasa Aceh adalah bahasa yang digunakan masyarakat aceh sehari-hari yang memiliki penutur paling banyak dibandingkan dengan bahasa daerah Aceh lainnya. ","Pakaian Linto Baro yang digunakan oleh pria terdiri dari beberapa elemen, yakni baju meukeusah,  celana sileuweu,  senjata tradisional, penutup kepala, dan hiasan-hiasan lain ","Masyarakat suku Aceh menyebut rumah adat mereka dengan nama Rumoh Aceh","Suku Jawa","Suku Aceh."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Sumatera Utara?","Apa baju adat provinsi Sumatera Utara?","Apa saja kesenian tradisional di provinsi sumatera utara ?","Apa rumah adat provinsi Aceh ?", "Suku apa saja yang ada di provinsi Aceh"],
+      "respon":[
+        "Bahasa Batak dituturkan disejumlah daerah di Sumatera Utara, yaitu Kabupaten Asahan Kota Tanjung Balai Kabupaten Simalungun (khusus bagian pesisir barat)  "," Pakaian Adat Suku Batak Toba (Ulos) ","Masyarakat suku Aceh menyebut rumah adat mereka dengan nama Rumoh Aceh","Rumah Gadang adalah nama untuk rumah adat Minangkabau yang merupakan rumah tradisional dan banyak jumpai di Sumatra Barat, Indonesia.","Suku Aceh, Suku Tamiang,Suku Gayo,Suku Aneuk Jamee."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Sumatera Barat ?","Apa baju adat provinsi Sumatera Barat?","Apa saja kesenian tradisional di provinsi sumatera barat?", "Suku apa saja yang ada di provinsi Aceh ?"],
+      "respon":[
+        "Bahasa Daerah Minangkabau","Rumah Gadang adalah nama untuk rumah adat Minangkabau yang merupakan rumah tradisional dan banyak jumpai di Sumatra Barat, Indonesia.","Suku-suku yang berasal dari Sumatera Barat seperti suku Kubu, Talang Mamak, Bonai, Kerinci, dan Sakai saat ini mayoritas sudah tidak ada di Sumatera Barat."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Jambi ?","Apa baju adat provinsi Riau ?","Apa rumah adat provinsi Aceh?", "Suku apa saja yang ada di provinsi Aceh?"],
+      "respon":[
+        "Bahasa-bahasa daerah yang dipertuturkan di Riau, antara lain Melayu, Minangkabau, Batak, Bugis, dan Banjar. ","Jenis pakaian adat Riau terdiri dari pakaian adat Melayu Indragiri Riau, baju adat Melayu Bengkalis Riau, dan baju adat tradisional Melayu Siak Riau. Berikut adalah pakaian adat Riau.","Senjata tradisional yang terkenal bernama pedang jenawi.","Rumah adat Selaso Jatuh Kembar adalah rumah adat khas Riau yang berupa balai selaso jatuh","Suku Sakai, Suku Akit, Suku Talang Mamak, Suku Bonai dan Suku Laut (Duano) yang tersebar di beberapa Kabupaten."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Jambi ?","Apa baju adat provinsi Kepulauan Riau ?", "Apa saja kesenian tradisional di provinsi kepulauan riau?","Apa rumah adat provinsi Aceh?","Suku apa saja yang ada di provinsi Aceh?"],
+      "respon":[
+        "Bahasa Melayu, semenjak pusat kerajaan berada di Malaka kemudian pindah ke Johor, akhirnya pindah ke Riau mendapat predikat pula sesuai dengan nama pusat kerajaan Melayu itu. "," Pakaian tradisional Kepulauan Riau kebaya labuh adalah pakaian yang khusus dikenakan oleh kaum wanita.","Tari Daerah Kepri, Malemang","Suku Sakai, Suku Akit, Suku Talang Mamak, Suku Bonai dan Suku Laut (Duano) yang tersebar di beberapa Kabupaten.","Kajang Lako atau Rumah Kajang Lako (di beberapa daerah tertentu disebut juga rumah tuo"," 5 Suku Asli Di Kepulauan Riau yaitu suku melayu, suku hutan, suku barok, suku laut, dan suku sakai."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Jambi ?","Apa baju adat provinsi Jambi? ?", "Apa saja kesenian tradisional di provinsi jambi ?","Suku apa saja yang ada di provinsi Aceh??"],
+      "respon":[
+        "Bahasa Bajau Tungkal Satu,Bahasa Banjar,Bahasa Bugis"," Pakaian Adat Pria Jambi Disebut Pakaian Adat Kurung Tanggung lantaran baju ini hanya memiliki panjang lengan sampai bawah siku dan tidak sampai pergelangan tangan. ","Tari Selampit Delapan, Tari Rangguk, Tari Joged Batanghari, Tarian Sekapur Sirih, Tari Serentak Satang, Tari Iyo-Iyo, Tari Ntok Kuda.","Suku Sakai, Suku Akit, Suku Talang Mamak, Suku Bonai dan Suku Laut (Duano) yang tersebar di beberapa Kabupaten.","Kajang Lako atau Rumah Kajang Lako (di beberapa daerah tertentu disebut juga rumah tuo","kelompok etnik, baik penduduk asli maupun pendatang. Penduduk asli Jambi terdiri atas Suku Bangsa Kubu, Kerinci, Batin, Orang Laut atau Bajau, Orang Penghulu, Suku Pindah dan Orang Melayu."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja bahasa daerah yang ada di provinsi Sumatera Selatan ?","Apa baju adat provinsi Sumatera Selatan ?", "Apa saja kesenian tradisional di provinsi sumatera selatan? ?","Apa rumah adat provinsi Aceh ?","Suku apa saja yang ada di provinsi Aceh?"],
+      "respon":[
+        "Bahasa Bajau Tungkal Satu,Bahasa Banjar,Bahasa Bugis"," Pakaian Adat Pria Jambi Disebut Pakaian Adat Kurung Tanggung lantaran baju ini hanya memiliki panjang lengan sampai bawah siku dan tidak sampai pergelangan tangan. ","gambus merupakan kesenian tradisional khas Sumatera Selatan yang terbuat dari bahan dasar kayu, memiliki enam dawai, dan dimainkan dengan cara dipetik layaknya seperti bermain gitar.","Kajang Lako atau Rumah Kajang Lako (di beberapa daerah tertentu disebut juga rumah tuo","Rumah Limas merupakan prototipe rumah tradisional Sumatra Selatan. Selain ditandai dengan atapnya yang berbentuk limas, rumah tradisional ini memiliki lantai bertingkat-tingkat yang disebut Bengkilas dan hanya dipergunakan untuk kepentingan keluarga seperti hajatan."
+        "Suku Komering,Suku lintang,Suku pasemah,Suku rawas."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian apa yang ada di daerah provinsi Yogyakarta  ?","Apa bahasa yang sering digunakan di Provinsi Yogyakarta ?", "Mengapa Baju daerah Yogyakarta sangat dicari ketika berwisata ?","Bagaimana pendapat anda tentang suku daerah Provinsi Yogyakarta ?","bagaimana pendapat anda tentang rumah Adat yang ada Di Provinsi Yogyakarta?"],
+      "respon":[
+        "Yakni Kesenian Kethoprak Merupakan seni pertunjukkan tradisional yang mirip dengan wayang orang. "," Jawa Karena mudah saling berkomunikasi antar masyarakat.  ","gambus merupakan kesenian tradisional khas Sumatera Selatan yang terb","Pinjung adalah kain yang digunakan sebagai penutup sampai ke dada dan sangat bagus motif baju nya. ","Jawa.","Limasan berasal dari kata “limolasan” yang berarti lima belasan. Perhitungan sederhana dalam pembuatan rumah."
+        "Suku Komering,Suku lintang,Suku pasemah,Suku rawas."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apakah yang dimaksud tentang kesenian yang ada di Jawa Timur ?","Apa bahasa yang digunakan Daerah Provinsi Jawa timur ?", "bagaimana bahan yang digunakan untuk membuat baju adat Jawa Timur. ?"," Suku apa yang mendominasi Derah Jawa Timur ?","Apa nama rumah ada yang ada di Yogyakarta?"],
+      "respon":[
+        "Ludruk adalah kesenian Jawa Timur yang cukup terkenal, semacam seni panggung yang umumnya seluruh pemainnya laki-laki. "," Jawa Karena mudah saling berkomunikasi antar masyarakat.  ","Baju Pese'an dikarenakan memiliki ciri khasberwarna merah putih atau merah hitam dan sangat garang ketika dilihat. ","Jawa istilah dikenal Wong Jowo dikenal sebagai pribadi dengan tutur kata yang halus.","Rumah Joglo Hegeng."
+        "Suku Komering,Suku lintang,Suku pasemah,Suku rawas."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Kesenian apa yang digunakan provinsi denpasar bali ?","Apa saja bahasa yang digunakan di provinsi Denpasar, Bali ?", "Bagaimana tanggapan anda tentang baju adat Provinsi Denpasar, Bali?"," Apakah suku daerah Denpasar memiliki ciri khas yang seperti apa ?","Apa nama rumah ada yang ada di Bali?"],
+      "respon":[
+        "Yakni Wayang kulit. "," yaitu dialek Bali Aga atau Bali Mula yang dituturkan oleh penduduk Bali di Daerah dataran tinggi di Bali. ","Pakaian daerah Bali sangat bervariasi, meskipun secara kasat mata pakaiannya terlihat sama.  ","Krama Bali adalah suku bangsa mayoritas di pulau Bali, yang menggunakan bahasa Bali dan mengikuti budaya Bali.","Bale Dauh. Bangunan ini banyak ditemui di sejumlah rumah adat Bali. Bale Dauh difungsikan sebagai ruangan untuk menerima tamu."
+        "Krama Bali adalah suku bangsa mayoritas di pulau Bali, yang menggunakan bahasa Bali dan mengikuti budaya Bali."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Bagimana kesenian Provinsi Mataram sangat sakral.  ?"," Apa bahasa yang digunakan di provinsi Mataram ?", "Apa yang anda ketahui tentang suku daerah provinsi mataram?","Bagaimana bentuk rumah adat Di Provinsi Nusantara Tenggara Barat. ?"],
+      "respon":[
+        "Yakni Kesenian Kebangru'an dikarenakan tidak sembarangan orang untuk mempertunjukkannya. "," Yakni bahasa Sasak karena sangat sering digunakan dalam berkomunikasi. ","Yakni Sebagian besar pakaian adat suku Sasak berasal dari kain Tenun.  ","Krama Bali adalah suku bangsa mayoritas di pulau Bali, yang menggunakan bahasa Bali dan mengikuti budaya Bali.","Suku bangsa yang mendiami pulau Lombok dan menggunakan bahasa Sasak.."
+        "Mewah dan unik dikarenakan rumah adat ini yang paling terkenal di Nusa Tenggara Barat adalah Dalam Loka, yang berarti istana dunia dalam bahasa Sumbawa."
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["- Bagaimana pertunjukan Kesenian yang ada di NTT ?"," Apa bahasa yang sering digunakan daerah Provinsi NTT?", "Apa saja untuk baju ada yang ada di NTT ?","Apa yang anda ketahui tentang rumah adat NTT. ?"],
+      "respon":[
+        "Cara biasanya berlangsung meriah dengan parade pakaian adat NTT sepanjang tiga kilometer.  "," Yakni Alor dikarenakan sering digunakan oleh masyarakat setempat.", "Yaitu Rumah Musalaki  merupakan nama rumah adat NTT yang dapat dikenali dengan ciri khas atap berbahan jerami."
+        "Mewah dan unik dikarenakan rumah adat ini yang paling terkenal di Nusa Tenggara Barat adalah Dalam Loka, yang berarti istana dunia dalam bahasa Sumbawa."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["- Apa saja Kesenian yang ada di Provinsi Kalimantan Barat  ?"," - Bagaimana pendapat masyarakat setempat tentang bahasa daerah Kalimantan Barat.  ?", "Apa yang digunakan untuk membuat baju adat Provinsi Kalimantan Barat?","Apa saja suku daerah yang ada Di Kalimantan Barat ?","Bagaimana pendapat anda tentang rumah adat yang berasal dari Kalimantan Barat?"],
+      "respon":[
+        "Yakni Tari Monong, Tari Jonggan, Tari Adat Dayak Pesaguan dan Tari Pingan Karena Kesenian tersebut memiliki sakral leluhur nenek moyang tersendiri.  ","Yakni Bahasa Dayak Karena disana sangat sering dipakai untuk berkomunikasi.","Yakni Baju Baba yang Terbuat dari serat kayu ampuro yang merupakan pohon asli di Pulau Kalimantan.  ","Yakni Suku Dayak  Karena sangat mendominasi Suku yang ada disana. ","Yakni Setiap rumah adat khas Kalimantan barat atau dikenal sebagai rumah Radakng kemudian menjadi rumah khas suku Dayak. ."
+        "Mewah dan unik dikarenakan rumah adat ini yang paling terkenal di Nusa Tenggara Barat adalah Dalam Loka, yang berarti istana dunia dalam bahasa Sumbawa."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa saja kesenian dari Sulawesi Selatan  ?"," Bahasa daerah apa yang digunakan oleh sulawesi selatan ?","Pakaian adat daerah apa yang digunakan oleh sulawesi selatan ?","Apa suku dari daerah sulawesi selatan  ?","Apa rumah adat dari daerah sulawesi selatan "],
+      "respon":[
+        "  Tari kipas Pakarena, Tari Pa’Gellu","Bahasa Bugis adalah bahasa yang menduduki peringkat pertama dengan penutur terbanyak di Sulawesi Selatan.","Baju Bodo,Baju Seppa Tallung dan Baju Pokko.","Suku Bugis, Suku Makasar, dan Suku Toraja","Rumah Adat Bugis, Rumah Adat Tongkongan, dan Rumah Adat Langkanae Luwu"
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa kesenian dari Sulawesi Tenggara ?","Bahasa daerah apa yang digunakan oleh sulawesi tenggara  ?","Pakaian adat daerah apa yang digunakan oleh sulawesi tenggara ?","Apa suku dari daerah sulawesi tenggara  ?","Apa rumah adat dari daerah sulawesi tenggara  "],
+      "respon":[
+        " Tari Tradisional Molulo, Tari Tradisional Lariangi, dan Tari Tradisional Mowindahako","Bahasa Bajo,Bahasa Muna dan Bahasa Kulisusu"," Busana Adat Babu Nggawi untuk Pengantin Wanita dan Busana Adat Babu Nggawi Langgai untuk Pengantin Pria.","Suku Tolaki, Suku Butondan Suku Mekongga","Rumah Adat Mekongga dan Rumah Adat Buton"
+      ]
+       },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa kesenian dari Maluku ?","Bahasa daerah apa yang digunakan oleh maluku ?","Pakaian adat daerah apa yang digunakan oleh sulawesi tenggara ?","Pakaian adat daerah apa yang digunakan oleh maluku ?","Apa suku dari daerah maluku ? ","Apa rumah adat dari daerah maluku ?"],
+      "respon":[
+        " Tari Bambu Gila ialah tarian yang juga dikenal sebagai permainan rakyat Maluku ini, dibawakan oleh tujuh orang penari yang memegang sebatang bambu.","Bahasa Banda Menurut pengakuan penduduk, Bahasa Banda dituturkan juga di Desa Banda Elat. ","Baju Cele atau seringkali disebut dengan nama kain salele, mungkin merupakan busana yang paling populer di daerah Provinsi Maluku dan , kebaya hitam gereja digunakan pada saat beribadah ke gereja bagi masyarakat Maluku.",
+        "Suku Nuaulu mendiami bagian selatan tengah Pulau Seram, Maluku. Suku ini juga disebut sebagai Noaulu atau Naulu dan Suku Ambon sendiri merupakan campuran Austronesia Papua yang berasal dari Pulau Ambon, Saparua, Nusalaut, Haruku, dan Seram Barat. ","Rumah adat Maluku yang pertama adalah rumah baileo. Rumah adat ini paling banyak dijumpai dan paling banyak digunakan sehingga dianggap sebagai perwakilan dari rumah adat Maluku"
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa kesenian dari Maluku Utara  ?","Bahasa daerah apa yang digunakan oleh Maluku Utara  ?"," Pakaian adat daerah apa yang digunakan oleh Maluku Utara ?","Pakaian adat daerah apa yang digunakan oleh maluku ?","Apa suku dari daerah Maluku Utara ? ","Apa rumah adat dari daerah Maluku Utara  ?"],
+      "respon":[
+        " Kesenian tradisional khas Maluku yang pertama adalah tari Tide-Tide. Tari yang dikenal sebagai tarian pergaulan khas Halmahera ini, biasanya ditampilkan di beberapa acara adat, seperti perkawinan adat dan pesta rakyat Halmahera..","Bahasa Bajo dituturkan oleh masyarakat di Desa Bajo, Kecamatan Sanana Utara, Kabupaten Kepulauan Sula,Provinsi Maluku Utara.  ",
+        "Manteren Lamo merupakan salah satu peninggalan dari kerajaan Ternate dan Tidore. Menurut sejarah, pakaian adat ini konon dipakai oleh para sultan kerjaan di Maluku Utara.",
+        "Suku Tanimbar Adalah Sekelompok Etnis Atau Masyarakat Asal Indonesia Yang Mendiami Kepulauan Tanimbar Provinsi Maluku Yang Berasal Dari Campuran Austronesia-Papua dan Suku galela adalah Kelompok Etnik Dengan Wilayah Asalnya Di Pulau Halmahera, Mereka Berdiam Terutama Di Pantai Bagian Utara Pulau Halamhera. ",
+        "Rumah Adat Baileo Rumah adat Maluku yang pertama adalah rumah baileo Rumah adat ini paling banyak dijumpai dan paling banyak digunakan sehingga dianggap sebagai perwakilan dari rumah adat Maluku."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa kesenian dari Papua Barat  ?","Bahasa daerah apa yang digunakan oleh Papua Barat ?","Pakaian adat daerah apa yang digunakan oleh Papua Barat  ?","Pakaian adat daerah apa yang digunakan oleh Papua Barat ?",". Apa suku dari daerah Papua Barat  ? ",". Apa rumah adat dari daerah Papua Barat ?"],
+      "respon":[
+        " Tari Suanggi merupakan tarian konon mengandung nuansa magis dan sakral karena gerakannya seperti ritual.dan Tari Yospan sama dengan Tari Sajojo. Tari Yospan biasa digunakan apabila ada acara-acara besar seperti upacara adat, acara seni budaya/festival, dan upacara penyambutan..","Bahasa Ma’ya, yaitu bahasa yang digunakan oleh masyarakat suku bangsa Wawiyai (Teluk Kabui), suku bangsa Laganyan (Kampung Araway, Beo, dan Lopintol), dan suku bangsa Kawe (Kampung Selpele, Salio, Bianci, Waisilip). ",
+        "Bahan alam yang berupa jerami atau serat kering hanya dipakai sebagai busana bawahan berupa rok untuk kaum wanita. kaum lalki-laki biasanya hanya mengenakan rok rumbai dengan cara dan bahan pembuatannya sama dengan rok yang dikenakan oleh kaum perempuan. ",
+        "Suku Papua terbesar terakhir versi Sejarah Negara adalah Suku Huli. Ciri khas suku ini mereka melukisi wajah dengan warna kuning, merah dan putih. DAN Suku terbesar ke-6 di Papua adalah Suku Bauzi. Suku ini merupakan suku yang tinggal di kawasan terisolir. ",
+        "Rumah kaki seribu adat Papua Barat yang paling terkenal adalah rumah asli penduduk suku Arfak Dan Rumah Hanoi Rumah adat Papua Barat yang paling terkenal pertama adalah Rumah Hanoi. Rumah yang memiliki struktur bangunan 2 lantai dan terbuat dari kayu dengan atap yang berbentuk kerucut. Kerucut yang terbuat dari jeramidan ilalang. Rumah yang berbentuk ."
+      ]
+      },
+    {
+      "tag":"Prasyarat",
+      "input":["Apa kesenian dari Papua  ?","Bahasa daerah apa yang digunakan oleh Papua ?","Pakaian adat daerah apa yang digunakan oleh Papua Barat  ?",". Pakaian adat daerah apa yang digunakan oleh Papua ?",". Apa suku dari daerah Papua ? ",". Apa rumah adat dari daerah Papua ?"],
+      "respon":[
+        " Tarian ini menyuguhkan kisah seorang pria yang ditinggal mati oleh sang istri. , Tari Awaijale Rilejale, dan Tari Musyoh","). Bahasa Matbat, digunakan oleh penduduk asli Pulau Misool. Penutur asli bahasa ini tersebar di Kampung Salafen, Lenmalas, Atkari, Folley, Tomolol, Kapatcool, Aduwei, dan Magey. dan Bahasa Misool, Sebutan ini diberikan oleh masyarakat Misool yang berbahasa Misool sendiri. Masyarakat Misool yang menggunakan bahasa Misool pada umumnya beragama Islam. ",
+        "Koteka/Holim Pakaian adat yang dikenal dengan sebutan koteka ini memiliki sebutan kedaerahan lain yaitu hilon, harim, atau bobbe Dan Baju Kurung Baju kurung adalah pakaian adat Papua untuk perempuan berupa atasan yang terbuat dari kain beludru ",
+        "Suku Asmat Suku Asmat merupakan salah satu suku terbesar yang ada di Papua. Hal yang membuat suku ini lebih terkenal adalah hasil ukiran kayunya yang dianggap sangat unik. Suku Asmat juga terkenal dengan tarian Tobe yang khas Dan Suku DaniSuku Dani menjadi salah satu suku paling populer di Papua.  ",
+        "Rumah Honai Rumah adat Papua yang paling sering muncul di buku pelajaran adalah rumah Honai, yang dihuni suku Dani, Rumah Adat Kariwari merupakan rumah adat Papua yang didiami oleh suku Tobati-Enggros. Rumah adat ini memiliki bentuk atap segi delapan, Rumah Jew Suku Asmat terkenal memiliki banyak anggota suku. Tidak heran bila rumah adat suku Asmat atau yang dikenal dengan sebutan Jew Dan Rumah Ebei Rumah adat Ebei merupakan kebalikan dari rumah Honai karena dibuat khusus untuk wanita suku Dani."
+      ]
+    },
+  ]
+}
